@@ -1,0 +1,50 @@
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/*
+========================MENU==============================
+*/
+
+#menu a {
+    font-size: 19px;
+    font-weight: 400;
+}
+#menu  button {
+    font-size: 16px;
+}
+
+
+
+
+/*====================MAIN==================================
+*/
+
+.borderCuotas {
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.precioInicio {
+    font-size: 35px;
+}
+
+
+/*
+=========================FOOTER======================
+*/
+
+.footer__icon {
+    width: 21px;
+}
+
+.footer__cards {
+    width: 45px;
+}
+
+footer ul li  {
+    list-style: none;
+}
