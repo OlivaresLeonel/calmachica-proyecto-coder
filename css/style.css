@@ -1,0 +1,615 @@
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/*
+========================MENU==============================
+*/
+
+#menu a {
+    font-size: 19px;
+    font-weight: 400;
+}
+#menu  button {
+    font-size: 16px;
+}
+
+
+/*====================MAIN==================================
+*/
+
+.borderCuotas {
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.precioInicio {
+    font-size: 35px;
+}
+
+
+/*
+=========================FOOTER======================
+*/
+
+.footer__icon {
+    width: 21px;
+}
+
+.footer__cards {
+    width: 45px;
+}
+
+footer ul li  {
+    list-style: none;
+}
+
+/*=======css paginas sin bootstrap=======*/
+
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+/* cabezera */
+
+#overNav {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0e0e0dc;
+}
+
+/* left section*/
+
+header section li {
+    display: inline;
+    padding: 6px;
+}
+
+header section a {
+    color: black;
+}
+
+/* center */
+.calmaChica {
+    font-size: 45px;
+
+}
+
+/* right section */
+
+#buscar {
+    padding: 7px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-color: #8F8F8F;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    outline: none;
+}
+
+.botonBuscar {
+    padding: 6px;
+    width: 60px;
+    border: 1px solid #ccc;
+    border-color: #8F8F8F;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    outline: none;
+}
+
+.botonBuscar:hover {
+    background-color: #292929;
+    color: white;
+    cursor: pointer;
+}
+
+/* navbar */
+
+header nav {
+    padding: 20px;
+    background-color: #292929;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: #8F8F8F;
+}
+
+/* Banner */
+.bannerInicio {
+    display: flex;
+    justify-content: center;
+}
+
+/* main */
+main {
+    background-color: #e0e0e0dc;
+}
+
+/* main pag productos */
+#mainProductos {
+    background-color: #e0e0e0dc;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 1fr 1fr;
+    grid-template-areas:
+     "pag pag pag ordenar ordenar"
+     "aside foto foto foto foto"
+     "aside foto foto foto foto";
+}
+
+#mainPag {
+    grid-area: pag;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-size: 12px;
+}
+
+#mainPag h2 a {
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#mainFiltros {
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#mainFiltros div {
+    padding: 30px;
+}
+
+#mainFotos {
+    grid-area: foto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.precioProductos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.precioProductos h3 {
+    padding: 20px;
+}
+
+.fotoMain {
+    width: 300px;
+}
+
+#mainOrdenar {
+    grid-area: ordenar;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 11px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#mainOrdenar div {
+    padding: 5px;
+}
+
+#ordenar {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    width: 170px;
+    height: 35px;
+}
+
+/* main pagina ropa */
+
+#mainRopa {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 0.6fr;
+    grid-template-rows: 0.1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "pagRopa pagRopa pagRopa"
+        "fotoIzq fotoMid infoRopa"
+        "fotoIzq fotoMid infoRopa"
+        "fotoIzq fotoMid infoRopa";
+}
+
+#mainRopa h2 a {
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#mainPagRopa {
+    grid-area: pagRopa;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #e0e0e0dc;
+}
+
+#sideImgRopa {
+    grid-area: fotoIzq;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e0e0e0dc;
+}
+
+.sideRopa {
+    width: 200px;
+    border-radius: 6px;
+    margin: 15px;
+}
+
+#midImgRopa {
+    grid-area: fotoMid;
+    background-color: #e0e0e0dc;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.midRopa {
+    width: 650px;
+    border-radius: 5px;
+}
+
+#infoProdRopa {
+    grid-area: infoRopa;
+    background-color: #e0e0e0dc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+#ropaPrecio {
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+#cuotasRopa {
+    padding-left: 25px;
+    font-size: 30px;
+    border: rgba(0, 0, 0, 0.637) solid 1px;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.ropaCards {
+    width: 90px;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+#ropaCarro {
+    font-size: 30px;
+    padding-left: 15px;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+/* main contacto*/
+
+#mainContacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "info consul"
+        "info consul"
+        "info consul"
+        "info consul"
+        "info consul";
+    height: 58.4vh;
+}
+
+#contactInfo {
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#contactInfo a {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.redesUbi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redesUbi img {
+    width: 70px;
+    margin-top: 35px;
+}
+
+#formCont {
+    grid-area: consul;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#formCont input {
+    height: 40px;
+    width: 350px;
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+#formCont button {
+    width: 100px;
+    height: 40px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-family:'Ubuntu', sans-serif;;
+    font-weight: 500;
+}
+#formCont button:hover {
+    background-color: #292929;
+    color: white;
+    cursor: pointer;
+}
+
+.letraForm {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+/* main como comprar */
+
+#comoComprar {
+    padding: 20px;
+}
+#comoComprar section {
+    font-size: 35px;
+}
+.pasosComprar {
+    font-size: 20px;
+    margin: 15px;
+    padding: 5px;
+}
+/* main devolucion */
+
+#mainDev {
+    height: 70vh;
+}
+
+#mainDevItem {
+    padding: 10px;
+}
+
+#devTitle {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.devTitle2 {
+    font-size: 20px;
+    margin-left: 2px;
+}
+
+.devTitle3 {
+    font-size: 15px;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+/* main login*/
+
+#mainLogin {
+    height: 59vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#campLogin {
+    width: fit-content;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+#mainLoginItems {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.userPass {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.userSpace {
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+#buttonLogin {
+    margin-top: 20px;
+    width:90px ;
+    height:45px ;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family:'Ubuntu', sans-serif;
+}
+#buttonLogin:hover {
+    background-color: #292929;
+    color: white;
+    cursor: pointer;
+
+}
+
+#loginCreate{
+    padding-top: 25px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#loginCreate h3 {
+    color:#616161;
+}
+#loginCreate a {
+    color: black;
+}
+
+/* main crear cuenta */
+
+#mainCreate {
+    height: 69vh;
+}
+
+#mainCreate div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+#mainCreate form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.itemCreate {
+    font-size: 25px;
+
+}
+
+#mainCreate h3 {
+    margin-top: 30px;
+    font-size: 24px;
+    color:#616161;
+}
+#mainCreate h3 a {
+    color:#292929;
+}
+
+.spaceCreate {
+    height: 30px;
+    width: 190px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.buttonCreate {
+    margin-top: 20px;
+    height: 30px;
+    width: 130px;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 500;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.buttonCreate:hover{
+    color: white;
+    background-color: #292929;
+    cursor: pointer;
+}
+ 
+/* footer */
+
+footer {
+    background-color: #292929
+}
+
+footer section {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer a {
+    color: #8F8F8F;
+}
+
+footer div {
+    color: #8F8F8F;
+}
+
+/* navpie */
+
+.navLi li {
+    padding: 2px;
+    font-size: 16px;
+}
+
+/* contactpie */
+
+.contactLi li {
+    padding: 5px;
+    font-size: 18px;
+}
+
+.iconoContact {
+    width: 23px;
+}
+
+/* redes */
+
+.fontRedes {
+    font-size: 19px;
+}
+
+.iconoRedes {
+    width: 30px;
+    height: 30px;
+}
+
+/* copyright */
+
+.copyR {
+    display: flex;
+    background-color: #292929;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
