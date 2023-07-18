@@ -11,11 +11,17 @@ a:active {
 }
 
 .botonComprar {
-  background-color: white;
+  background-color: black;
+  color: white;
   height: 40px;
   width: 120px;
   border: 1px solid black;
   border-radius: 6px;
+  outline: none;
+}
+.botonComprar:hover {
+  background-color: white;
+  color: black;
 }
 
 .botonLogin {
@@ -28,6 +34,10 @@ a:active {
   width: 250px;
   height: 50px;
 }
+.botonLogin:hover {
+  background-color: white;
+  color: black;
+}
 
 .botonCreate {
   color: white;
@@ -39,6 +49,10 @@ a:active {
   width: 250px;
   height: 50px;
 }
+.botonCreate:hover {
+  background-color: white;
+  color: black;
+}
 
 .botonContacto {
   color: white;
@@ -46,10 +60,14 @@ a:active {
   font-size: larger;
   font-weight: bold;
   font-family: "ubuntu";
-  height: 40px;
+  height: 35px;
   width: 300px;
   border: 1px solid black;
   border-radius: 6px;
+}
+.botonContacto:hover {
+  background-color: white;
+  color: black;
 }
 
 .navbar a {
