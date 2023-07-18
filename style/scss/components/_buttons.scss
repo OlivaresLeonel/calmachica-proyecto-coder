@@ -1,7 +1,14 @@
-.botonComprar{
-    background-color: $colorPrincipal;
-    height: 40px;
-    width: 120px;
-    border: $border;
-    border-radius: 6px;
+.botonComprar {
+    @include buttonPurchase;
+}
+
+.botonLogin {
+    @include buttonAccount;
+}
+
+.botonCreate {
+    @include buttonAccount;
+} 
+.botonContacto {
+    @include buttonContacto
 }

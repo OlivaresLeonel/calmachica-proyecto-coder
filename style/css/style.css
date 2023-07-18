@@ -18,6 +18,40 @@ a:active {
   border-radius: 6px;
 }
 
+.botonLogin {
+  color: white;
+  background-color: black;
+  font-size: larger;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 250px;
+  height: 50px;
+}
+
+.botonCreate {
+  color: white;
+  background-color: black;
+  font-size: larger;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 250px;
+  height: 50px;
+}
+
+.botonContacto {
+  color: white;
+  background-color: black;
+  font-size: larger;
+  font-weight: bold;
+  font-family: "ubuntu";
+  height: 40px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
 .navbar a {
   font-size: 19px;
   font-weight: 400;
@@ -26,8 +60,14 @@ a:active {
   font-size: 16px;
 }
 
-.borderCoutas {
-  border-radius: 1px solid black;
+.borderCuotas {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.infoProducto {
+  padding: 0px;
+  margin: 0px;
 }
 
 footer ul li {
@@ -48,6 +88,121 @@ footer ul li {
   padding: 15px;
   justify-content: center;
   align-items: center;
+}
+
+.loginForm {
+  border: 2px solid rgba(65, 65, 65, 0.726);
+  border-radius: 6px;
+  width: 300px;
+  height: 400px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.loginForm form label {
+  font-weight: 600;
+}
+.loginForm form input {
+  border: 1px solid black;
+  border-radius: 6px;
+  height: 40px;
+}
+.loginForm div {
+  padding-top: 10px;
+}
+
+.createForm {
+  border: 2px solid rgba(65, 65, 65, 0.726);
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+.createForm form label {
+  font-size: large;
+  font-weight: 600;
+}
+.createForm form input {
+  border: 1px solid black;
+  border-radius: 6px;
+  height: 40px;
+}
+.createForm section {
+  margin-top: 10px;
+}
+
+.filtroProductos {
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 150px;
+  height: 35px;
+}
+
+.contactoForm {
+  border: 2px solid rgba(65, 65, 65, 0.726);
+  border-radius: 6px;
+  width: 300px;
+  height: 400px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.contactoForm label {
+  font-weight: 600;
+}
+.contactoForm input {
+  border: 1px solid black;
+  border-radius: 6px;
+  height: 40px;
+}
+.contactoForm div {
+  padding-top: 10px;
+}
+
+.infoContacto {
+  padding: 20px;
+}
+
+.infoCalifornia {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding-top: 15px;
+  margin-top: 10px;
+}
+.infoCalifornia h4 {
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.infoRace {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding-top: 15px;
+  margin-top: 10px;
+}
+.infoRace h4 {
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.infoRacing {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding-top: 15px;
+  margin-top: 10px;
+}
+.infoRacing h4 {
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.infoVestido {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding-top: 15px;
+  margin-top: 10px;
+}
+.infoVestido h4 {
+  border: 1px solid black;
+  border-radius: 6px;
 }
 
 /*# sourceMappingURL=style.css.map */

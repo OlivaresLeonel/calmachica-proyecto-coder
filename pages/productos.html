@@ -84,29 +84,29 @@
         </div>
     </nav>
 
-    <main class="row">
+    <main>
+        <aside class="container row">
+            <div class=" col-6 ">
+                <div class=" d-flex flex-column p-2">
+                    <label class="fw-bold" for="filtros">FILTROS:</label>
+                    <select class="filtroProductos" name="filtro">
+                        <option value="Mayor">Color</option>
+                        <option value="Menor">Talle</option>
+                    </select>
+                </div>
+            </div>
 
-        <aside class="col-6">
-            <div class=" d-flex flex-column p-2">
-                <label class="fw-bold" for="filtros">FILTROS:</label>
-                <select class="rounded w-25" name="filtro">
-                    <option value="Mayor">Color</option>
-                    <option value="Menor">Talle</option>
-                </select>
+            <div class="col-6">
+                <div class=" d-flex flex-column p-2 ">
+                    <label class="fw-bold" for="ordenar">ORDENAR POR:</label>
+                    <select class="filtroProductos" name="ordenar">
+                        <option value="Mayor">Mayor Precio</option>
+                        <option value="Menor">Menor Precio</option>
+                        <option value="Vendidos">Mas Vendidos</option>
+                    </select>
+                </div>
             </div>
         </aside>
-
-        <div class="col-6">
-            <div class=" d-flex flex-column p-2">
-                <label class="fw-bold" for="ordenar">ORDENAR POR:</label>
-                <select class="rounded w-25" name="ordenar">
-                    <option value="Mayor">Mayor Precio</option>
-                    <option value="Menor">Menor Precio</option>
-                    <option value="Vendidos">Mas Vendidos</option>
-                </select>
-            </div>
-        </div>
-
         <section class="container">
             <h3>
                 <span class="container d-flex justify-content-center p-3 mt-2 fw-bold">
@@ -114,10 +114,11 @@
                 </span>
             </h3>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
-                <img src="../img/buzocalifornia.jpeg" class=" p-4 " alt="buzocalifornia">
+                <img src="../img/buzocalifornia.jpeg" class=" p-2  " alt="buzocalifornia">
 
-                <div class=" d-flex flex-column justify-content-center">
-                    <a class="fw-semibold fs-3 p-2 d-flex justify-content-center text-dark text-decoration-none" href="./buzo-california.html">Buzo California</a>
+                <div class="d-flex flex-column justify-content-center">
+                    <a class=" fw-semibold fs-3 p-2 d-flex justify-content-center text-dark"
+                        href="../pages/buzo-california.html">Buzo California</a>
                     <span class="fw-bold fs-3 d-flex justify-content-center mb-3"> $19.960 </span>
                     <div class="borderCuotas m-3">
                         <span class=" d-flex justify-content-center  ">
@@ -125,14 +126,15 @@
                         </span>
                     </div>
                     <div class="d-flex justify-content-center">
-                        <button class="botonComprar" onclick="window.location.href ='buzo-california.html';">Comprar Ahora</button>
+                        <button class="botonComprar"
+                            onclick="window.location.href ='pages/buzo-california.html';">Comprar Ahora</button>
                     </div>
-                    
                 </div>
 
-                <img src="../img/buzorace.jpeg" class="col p-4" alt="buzorace">
+                <img src="../img/buzorace.jpeg" class=" p-2 mt-3" alt="buzorace">
                 <div class=" d-flex flex-column justify-content-center">
-                    <a class="fw-semibold fs-3 p-2 d-flex justify-content-center text-dark text-decoration-none" href="./buzo-race.html">Buzo Race</a>  
+                    <a class="fw-semibold fs-3 p-2 d-flex justify-content-center text-dark text-decoration-none"
+                        href="../pages/buzo-race.html">Buzo Race</a>
                     <span class="fw-bold fs-3 d-flex justify-content-center mb-3"> $21.100 </span>
 
                     <div class="borderCuotas m-3">
@@ -141,14 +143,16 @@
                         </span>
                     </div>
                     <div class="d-flex justify-content-center">
-                        <button class="botonComprar" onclick="window.location.href ='buzo-race.html';">Comprar Ahora</button>
+                        <button class="botonComprar" onclick="window.location.href ='pages/buzo-race.html';">Comprar
+                            Ahora</button>
                     </div>
                 </div>
 
-                <img src="../img/buzoracing.jpeg" class="col p-4" alt="buzoracing">
-                <div class=" d-flex flex-column justify-content-center"">
-                     <a class="fw-semibold fs-3 p-2 d-flex justify-content-center text-dark text-decoration-none" href="./buzo-racing.html">Buzo Racing</a>
-                    
+                <img src="../img/buzoracing.jpeg" class=" col p-2 mt-3" alt="buzoracing">
+                <div class=" d-flex flex-column justify-content-center">
+                    <a class="fw-semibold fs-3 p-2 d-flex justify-content-center text-dark text-decoration-none"
+                        href="../pages/buzo-racing.html">Buzo Racing</a>
+
                     <span class="fw-bold fs-3 d-flex justify-content-center mb-3"> $19.800 </span>
 
                     <div class="borderCuotas m-3">
@@ -157,14 +161,16 @@
                         </span>
                     </div>
                     <div class="d-flex justify-content-center">
-                        <button class="botonComprar" onclick="window.location.href ='buzo-racing.html';">Comprar Ahora</button>
+                        <button class="botonComprar" onclick="window.location.href ='pages/buzo-racing.html';">Comprar
+                            Ahora</button>
                     </div>
                 </div>
 
-                <img src="../img/vestidoroma3.jpeg" class="col p-4" alt="buzorace">
+                <img src="../img/vestidoroma3.jpeg" class=" col p-2 mt-3" alt="buzorace">
                 <div class=" d-flex flex-column justify-content-center">
-                    <a class="fw-semibold fs-3 p-2 d-flex justify-content-center text-dark text-decoration-none" href="./vestido-mia.html"> Vestido Roma</a>
-                    
+                    <a class="fw-semibold fs-3 p-2 d-flex justify-content-center text-dark text-decoration-none"
+                        href="../pages/vestido-mia.html"> Vestido Roma</a>
+
                     <span class="fw-bold fs-3 d-flex justify-content-center mb-3"> $7.800 </span>
 
                     <div class="borderCuotas m-3">
@@ -173,16 +179,13 @@
                         </span>
                     </div>
                     <div class="d-flex justify-content-center">
-                        <button class="botonComprar" onclick="window.location.href ='vestido-mia.html';">Comprar Ahora</button>
+                        <button class="botonComprar" onclick="window.location.href ='pages/vestido-mia.html';">Comprar
+                            Ahora</button>
                     </div>
                 </div>
             </div>
         </section>
-
-
-
     </main>
-
     <footer class="bg-dark text-light container-fluid mt-2 ">
         <section class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
             <div class="p-3 col">

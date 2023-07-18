@@ -1,0 +1,26 @@
+.createForm {
+    border: 2px solid rgba(65, 65, 65, 0.726);
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+
+    form {
+        label {
+            font-size: large;
+            font-weight: 600;
+        }
+
+        input {
+            border: $border;
+            border-radius: 6px;
+            height: 40px;
+        }
+
+    }
+
+    section {
+        margin-top: 10px;
+
+    }
+}

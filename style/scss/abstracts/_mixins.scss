@@ -1,0 +1,29 @@
+@mixin buttonAccount() {
+    color: white;
+    background-color: $colorSecundario;
+    font-size: larger;
+    font-weight: bold;
+    border: $border;
+    border-radius: 6px;
+    width: 250px;
+    height: 50px;
+}
+@mixin buttonPurchase () {
+    background-color: $colorPrincipal;
+    height: 40px;
+    width: 120px;
+    border: $border;
+    border-radius: 6px;
+}
+
+@mixin buttonContacto () {
+    color: white;
+    background-color: $colorSecundario;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'ubuntu';
+    height: 40px;
+    width: 300px;
+    border: $border;
+    border-radius: 6px;
+}

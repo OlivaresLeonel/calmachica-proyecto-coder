@@ -1,5 +1,7 @@
 @import "./abstracts/variables";
 
+@import "./abstracts/mixins";
+
 @import "./base/reset";
 
 @import "./components/buttons";
@@ -11,3 +13,19 @@
 @import "./layout/main";
 
 @import "./layout/footer";
+
+@import "./pages/login";
+
+@import "./pages/crearCuenta";
+
+@import "./pages/productos";
+
+@import "./pages/contacto";
+
+@import "./pages/buzoCalifornia";
+
+@import "./pages/buzoRace";
+
+@import "./pages/buzoRacing";
+
+@import "./pages/vestidoMia"

@@ -1,3 +1,9 @@
-.borderCoutas {
-    border-radius: 1px solid black;
+.borderCuotas {
+    border: $border;
+    border-radius: 5px ;
 }
+.infoProducto {
+    padding: 0px;
+    margin: 0px;
+}
+
